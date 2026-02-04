@@ -12,6 +12,12 @@
 - **功能**: 自动化发布 Python 包到 PyPI
 - **使用**: `~/skills/publish-pip-package.sh [项目目录]`
 
+### 2. FRP 隧道设置技能
+- **脚本**: `setup-frp-tunnel.sh`
+- **文档**: `SETUP_FRP_TUNNEL_SKILL.md`
+- **功能**: 设置 FRP 隧道实现 SSH 远程访问
+- **使用**: `~/skills/setup-frp-tunnel.sh [server|client|colab] [参数]`
+
 ## 🚀 如何使用技能
 
 ### 对于 LLM:
@@ -21,6 +27,10 @@ ls ~/skills/
 
 # 使用 Python 包发布技能
 ~/skills/publish-pip-package.sh /path/to/python/project
+
+# 使用 FRP 隧道技能
+~/skills/setup-frp-tunnel.sh server
+~/skills/setup-frp-tunnel.sh client SERVER_IP TOKEN
 
 # 查看技能文档
 cat ~/skills/PUBLISH_PIP_SKILL.md

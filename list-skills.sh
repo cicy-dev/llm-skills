@@ -44,6 +44,8 @@ done
 echo ""
 echo "💡 Usage Examples:"
 echo "  ~/skills/publish-pip-package.sh /path/to/project"
+echo "  ~/skills/setup-frp-tunnel.sh server"
+echo "  ~/skills/setup-frp-tunnel.sh client SERVER_IP TOKEN"
 echo "  cat ~/skills/PUBLISH_PIP_SKILL.md"
 echo ""
 echo "📋 For detailed information: cat ~/skills/README.md"
