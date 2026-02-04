@@ -2,6 +2,8 @@
 
 这个目录包含可供其他 LLM 使用的技能脚本和工具。
 
+**🔗 GitHub Repository**: https://github.com/cicy-dev/llm-skills
+
 ## 📋 可用技能
 
 ### 1. Python 包发布技能
@@ -49,6 +51,16 @@ cat ~/skills/PUBLISH_PIP_SKILL.md
 2. 添加对应的 `.md` 文档文件
 3. 更新本 README.md 文件
 4. 确保脚本有适当的错误处理和帮助信息
+5. 提交到 GitHub: `git add . && git commit -m "Add new skill" && git push`
+
+## 🌐 安装技能到本地
+```bash
+# 克隆技能仓库
+git clone https://github.com/cicy-dev/llm-skills.git ~/skills
+
+# 或更新现有技能
+cd ~/skills && git pull
+```
 
 ## 📖 技能命名规范
 - 脚本文件: `action-target.sh` (如: `publish-pip-package.sh`)
